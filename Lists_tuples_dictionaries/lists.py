@@ -67,3 +67,29 @@
 # print(min(numbers))  # Вычесление меньшего значения !
 # print(max(numbers))  # Вычесление найбольшего значения !
 
+# names = ["Nik", "Serge", "Ivan", "Katya", "Dima"]
+# delete_name = input("Введите имя которое хотите удалить: ")
+# if delete_name in names:
+#     names.remove(delete_name)  # Удаляет значение, по значению!
+# print(names)
+
+# names = ["Nik", "Serge", "Ivan", "Katya", "Dima", "Dima", "Dima"]
+
+
+# def dell(names_user):
+#     delete_name = input("Введите имя которое хотите удалить: ")
+#     index_delete_user = names_user.index(delete_name)
+#     names_user.pop(index_delete_user)
+#     return names_user
+#
+#
+# print(dell(names))
+
+# def clone(names_user):
+#     search_name = input("Введите имя: ")
+#     a = names_user.count(search_name)
+#     print("Слово", search_name, "в листе", names_user, "повторяется", a, "раз(а)!")
+#
+#
+# clone(names)
+
