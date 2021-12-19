@@ -93,59 +93,61 @@
 #
 # clone(names)
 
-# numbers = [23, 42, 1, 54, 21, 94]
-# numbers.sort()
+# numbers = [23, 42, 1, 54, 21, 94]    # создание листа и наполнение элементами
+# numbers.sort()    #  метод сортировки значений
 # print(numbers)
-# print(sorted(numbers))
+# print(sorted(numbers)) #  функция сортировки значений
 
-# numbers = [23, 42, 1, 54, 21, 94]
-# print(min(numbers))
-# print(max(numbers))
+# numbers = [23, 42, 1, 54, 21, 94]  # создание листа и наполнение элементами
+# print(min(numbers)) # Вывод минимального значения
+# print(max(numbers)) # # Вывод максимального значения
 
-# name1 = ["Aleftina", "Zina", "Inakentiy"]
-# name2 = name1
+# name1 = ["Aleftina", "Zina", "Inakentiy"] # создание листа и наполнение элементами
+# name2 = name1  # создание копии листа которые указывают на один и тот же объект
 # print(name1)
 # print(name2)
-# name2.append("Kuki")
+# name2.append("Kuki")  # Добавления значения в ОБА листа
 # print(name1)
 # print(name2)
 
-# import copy
+# import copy  # Импортирование библиотеки  в наш файл
 #
-# name1 = ["Aleftina", "Zina", "Inakentiy"]
-# name2 = copy.deepcopy(name1)
+# name1 = ["Aleftina", "Zina", "Inakentiy"] # создание листа и наполнение элементами
+# name2 = copy.deepcopy(name1)  # Использование метода библиотеки
 # print(name1)
 # print(name2)
-# name2.append("Kuki")
+# name2.append("Kuki")  # Добавление значения в один листов ( name2)
 # print(name1)
 # print(name2)
 
-# names = ["Alex", "Lola", "Olga", "Dima", "Nikolas", "Yarik"]
-# print(names[:3])
-# print(names[2:5])
-# print(names[1:5])
+# names = ["Alex", "Lola", "Olga", "Dima", "Nikolas", "Yarik"]  # создание листа и наполнение элементами
+# print(names[:3])  # Вывод обрезаного листа
+# print(names[2:5]) # Вывод обрезаного листа  от ольги до ярика
+# print(names[1:5]) # Вывод обрезаного листа  от Лолы до ярика
 
-# names1 = ["Igor", "Ignat", "Akaki"]
-# names2 = ["aniel", "Zoran", "Pedja"]
-# user3 = names1 + names2
-# print(sorted(user3))
+# names1 = ["Igor", "Ignat", "Akaki"]  # создание листа и наполнение элементами
+# names2 = ["aniel", "Zoran", "Pedja"] # создание листа и наполнение элементами
+# user3 = names1 + names2 # соедение листов
+# print(sorted(user3)) # сортировка соедененных листов
 
-# users = [
+# users = [  # создание общего листа
 #     ["Lida", 29],
 #     ["Kuki", 21],
 #     ["Arsen", 22],
-#     ["Srgan", 45]
+#     ["Srgan", 45]  # создание листа в листе
 # ]
-# print(users[2][0])
+# print(users[2][0]) # Вывод значений
 
-# users = [
+# users = [ # создание общего листа
 #     ["Lida", 29],
 #     ["Kuki", 21],
 #     ["Arsen", 22],
-#     ["Srgan", 45]
+#     ["Srgan", 45]  # создание листа в листе
 # ]
 #
-# for user in users:
-#     for i in user:
-#         print(i, end=" | ")
+# for user in users: # циклом for прогон users и помещение в user
+#     for i in user: # прогон каждого отдельно из user
+#         print(i, end=" | ") # Вывод который после каждого элемента ставит верт.полоску
+
+
 
