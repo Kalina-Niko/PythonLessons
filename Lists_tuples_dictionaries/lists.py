@@ -93,3 +93,59 @@
 #
 # clone(names)
 
+# numbers = [23, 42, 1, 54, 21, 94]
+# numbers.sort()
+# print(numbers)
+# print(sorted(numbers))
+
+# numbers = [23, 42, 1, 54, 21, 94]
+# print(min(numbers))
+# print(max(numbers))
+
+# name1 = ["Aleftina", "Zina", "Inakentiy"]
+# name2 = name1
+# print(name1)
+# print(name2)
+# name2.append("Kuki")
+# print(name1)
+# print(name2)
+
+# import copy
+#
+# name1 = ["Aleftina", "Zina", "Inakentiy"]
+# name2 = copy.deepcopy(name1)
+# print(name1)
+# print(name2)
+# name2.append("Kuki")
+# print(name1)
+# print(name2)
+
+# names = ["Alex", "Lola", "Olga", "Dima", "Nikolas", "Yarik"]
+# print(names[:3])
+# print(names[2:5])
+# print(names[1:5])
+
+# names1 = ["Igor", "Ignat", "Akaki"]
+# names2 = ["aniel", "Zoran", "Pedja"]
+# user3 = names1 + names2
+# print(sorted(user3))
+
+# users = [
+#     ["Lida", 29],
+#     ["Kuki", 21],
+#     ["Arsen", 22],
+#     ["Srgan", 45]
+# ]
+# print(users[2][0])
+
+# users = [
+#     ["Lida", 29],
+#     ["Kuki", 21],
+#     ["Arsen", 22],
+#     ["Srgan", 45]
+# ]
+#
+# for user in users:
+#     for i in user:
+#         print(i, end=" | ")
+
