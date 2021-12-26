@@ -48,3 +48,57 @@
 # finally:
 #     print("Програма завершена!")
 
+# users_numbers = {
+#     380995953211: "Kiki",
+#     380995953213: "Bimbo",
+#     380995953214: "Indiko",
+#     380995953210: "Lolka",
+#     380995953221: "Koljka"
+# }
+
+# user = int(input("Введите ключ: "))
+# if user in users_numbers:
+#     print(users_numbers[user])
+# else:
+#     print("Нема ключа!")
+
+
+# def exp_dict(user):
+#     user_phone = int(input("Введите номер: "))
+#     if user_phone in user:
+#         print(user[user_phone])
+#         if len(user[user_phone]) < 5:
+#             print("Меньше пяти")
+#         else:
+#             print("Больше пяти")
+#     else:
+#         print("Нема нлюча!")
+#
+#
+# exp_dict(users_numbers)
+
+
+# users_numbers = {
+#     380995953211: "Kiki",
+#     380995953213: "Bimbo",
+#     380995953214: "Indiko",
+#     380995953210: "Lolka",
+#     380995953221: "Koljka"
+# }
+#
+# user = int(input("Введите ключ: "))
+# user_info = users_numbers.get(user, "Элемент не найден!")
+# print(user_info)
+
+
+# users_info = {
+#     "Leon": 380995953221,
+#     "Lacy": 380995953222,
+#     "Morty": 380995953225
+# }
+#
+# user_give = input("Введите имя: ")
+# del users_info[user_give]
+# print(users_info)
+
+
