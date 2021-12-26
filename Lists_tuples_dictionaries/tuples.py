@@ -42,5 +42,3 @@
 # for i in user_tuple:
 #     print(i)
 
-
-
