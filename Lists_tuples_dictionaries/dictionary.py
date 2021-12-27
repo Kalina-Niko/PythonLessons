@@ -101,4 +101,74 @@
 # del users_info[user_give]
 # print(users_info)
 
+# users_info = {
+#     "Leon": 380995953221,
+#     "Lacy": 380995953222,
+#     "Morty": 380995953225
+# }
+# user_give = input("Введите имя:")
+# if user_give in users_info:
+#     del users_info[user_give]
+#     user_del = user_give
+#     print("Пользователь", user_del, "удален!")
+# else:
+#     print("Элемент не найден!")
+# print(users_info)
 
+
+# users_info = {
+#     "Leon": 380995953221,
+#     "Lacy": 380995953222,
+#     "Morty": 380995953225
+# }
+# user_give = input("Введите имя: ")
+# a = users_info.pop(user_give, "Элемент не найден!")
+# print(users_info)
+# print(a)
+
+# users_info = {
+#     "Leon": 380995953221,
+#     "Lacy": 380995953222,
+#     "Morty": 380995953225
+# }
+# users_info.clear()
+# print(users_info)
+
+# users_info = {
+#     "Leon": 380995953221,
+#     "Lacy": 380995953222,
+#     "Morty": 380995953225
+# }
+# users_info_2 = users_info.copy()
+# print(users_info)
+# print(users_info_2)
+
+# users_info = {
+#     "Leon": 380995953221,
+#     "Lacy": 380995953222,
+#     "Morty": 380995953225
+# }
+# users_info_2 = {
+#     "Galina": 380672123430,
+#     "Jhon": 380672123431,
+#     "Alina": 380672123432
+# }
+
+# users_info.update(users_info_2)
+# print(users_info)
+# print(users_info_2)
+
+# users_info = {
+#     "Leon": 380995953221,
+#     "Lacy": 380995953222,
+#     "Morty": 380995953225
+# }
+
+# for key in users_info:
+#     print(key, "-", users_info[key])
+
+# for key, value in users_info.items():
+#     print(key, "-", value)
+
+# for value in users_info.values():
+#     print(value)
