@@ -55,15 +55,15 @@
 #     380995953210: "Lolka",
 #     380995953221: "Koljka"
 # }
-
+#
 # user = int(input("Введите ключ: "))
-# if user in users_numbers:
+# if user in users_numbers:   # прогон словаря, при этом выводит значение по ключу!
 #     print(users_numbers[user])
 # else:
 #     print("Нема ключа!")
 
 
-# def exp_dict(user):
+# def exp_dict(user):   # функция которая принимает от пользов. ключ, находит значение и выводит его длину!
 #     user_phone = int(input("Введите номер: "))
 #     if user_phone in user:
 #         print(user[user_phone])
@@ -87,7 +87,7 @@
 # }
 #
 # user = int(input("Введите ключ: "))
-# user_info = users_numbers.get(user, "Элемент не найден!")
+# user_info = users_numbers.get(user, "Элемент не найден!") #Возращает в юзер значение по ключу!
 # print(user_info)
 
 
@@ -98,7 +98,7 @@
 # }
 #
 # user_give = input("Введите имя: ")
-# del users_info[user_give]
+# del users_info[user_give]  # Удаляет из словаря значение по ключу!
 # print(users_info)
 
 # users_info = {
@@ -107,8 +107,8 @@
 #     "Morty": 380995953225
 # }
 # user_give = input("Введите имя:")
-# if user_give in users_info:
-#     del users_info[user_give]
+# if user_give in users_info:    # Проверяет наличие юзер_гив в юзер_инфо
+#     del users_info[user_give]  # удляет по ключу значение из словаря и далее выводит красивый вывод с учетом удал!
 #     user_del = user_give
 #     print("Пользователь", user_del, "удален!")
 # else:
@@ -122,7 +122,7 @@
 #     "Morty": 380995953225
 # }
 # user_give = input("Введите имя: ")
-# a = users_info.pop(user_give, "Элемент не найден!")
+# a = users_info.pop(user_give, "Элемент не найден!")  # Удаление значение методом ПОП, если не удаляется (ЭЛ НЕ НАЙДЕН)
 # print(users_info)
 # print(a)
 
@@ -131,7 +131,7 @@
 #     "Lacy": 380995953222,
 #     "Morty": 380995953225
 # }
-# users_info.clear()
+# users_info.clear() # зачистка словаря!
 # print(users_info)
 
 # users_info = {
@@ -139,7 +139,7 @@
 #     "Lacy": 380995953222,
 #     "Morty": 380995953225
 # }
-# users_info_2 = users_info.copy()
+# users_info_2 = users_info.copy() # Копирывание словаря в словарь
 # print(users_info)
 # print(users_info_2)
 
@@ -154,7 +154,7 @@
 #     "Alina": 380672123432
 # }
 
-# users_info.update(users_info_2)
+# users_info.update(users_info_2) # метод которым перетягивается ЮИ2 в ЮИ !
 # print(users_info)
 # print(users_info_2)
 
@@ -165,10 +165,32 @@
 # }
 
 # for key in users_info:
-#     print(key, "-", users_info[key])
+#     print(key, "-", users_info[key])  # выводит только ключи мето
 
-# for key, value in users_info.items():
+# for key, value in users_info.items():  # выодит методом итемс и ключи и значение
 #     print(key, "-", value)
 
-# for value in users_info.values():
+# for value in users_info.values(): # выводит только значение
 #     print(value)
+
+# users = {  # дикшионари - Словари в дикшионари - словарях
+#     "Mihalchenko": {  # Ключ словаря
+#         "name": "Leon", # Ключ и значение встроеного словаря
+#         "phone": 30971112233,
+#         "email": "leon.mih@gamil.com"
+#     },  # Закрые первого встроеного словаря
+#     "Marinovkiy": {
+#         "name": "Vladimir",
+#         "phone": 380971112244,
+#         "email": "vova@gmail.com"
+#     },
+#     "Dubinko": {
+#         "name": "Lida",
+#         "phone": 380971112255,
+#         "email": "lida@gmail.com"
+#     }
+# }
+#
+# print(users)
+# print(users["Dubinko"]["email"])  # вывод почты из втроеных словарей
+# print(users["Marinovkiy"]["phone"]) # вывод телефона из втроеных словарей
