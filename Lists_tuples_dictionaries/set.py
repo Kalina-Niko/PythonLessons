@@ -75,3 +75,4 @@
 # users_3 = users.difference(users2) # Вывод всего сета юзерс без дубля из другого сета (юзерс2)
 # print(users_3)
 
+

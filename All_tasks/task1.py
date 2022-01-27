@@ -127,7 +127,7 @@
 #         break
 #     else:
 #         print(a)
-
+#
 # n = input("введите значение: ")
 # print(n)
 # print(n.split())
@@ -454,4 +454,45 @@
 #     x = x * 1.1
 #     i += 1
 # print(i)
+
+# a = float(input("Введите число: "))
+# b = float(input("Введите второе число: "))
+# oper = input("Введите операцию +, -, /, *, mod, pow, div: ")
+# try:
+#     slovarj = {
+#         "+": a + b,
+#         "-": a - b,
+#         "/": a / b,
+#         "*": a * b,
+#         "mod": a % b,
+#         "pow": a ** b,
+#         "div": a // b
+#     }
+#     print(slovarj.get(oper))
+# except ZeroDivisionError:
+#     print("Деленее на ноль")
+
+# def slovarj ():
+#     a = float(input("Введите число: "))
+#     b = float(input("Введите второе число: "))
+#     oper = input("Введите операцию +, -, /, *, mod, pow, div: ")
+#     try:
+#         slovarj = {
+#             "+": a + b,
+#             "-": a - b,
+#             "/": a / b,
+#             "*": a * b,
+#             "mod": a % b,
+#             "pow": a ** b,
+#             "div": a // b
+#         }
+#         return slovarj.get(oper)
+#     except ZeroDivisionError:
+#         return "Деленее на ноль"
+#
+#
+# print(slovarj())
+
+
+
 
